@@ -22,6 +22,15 @@ export const ScrollContainer = styled.ScrollView.attrs({
   margin-top: -40px;
 `;
 
+export const ErrorMessage = styled.Text`
+  flex: 1;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Poppins-Regular';
+  padding: 0 20px;
+  text-align: center;
+`;
+
 export const FoodsContainer = styled.View`
   padding: 0 24px;
 `;
