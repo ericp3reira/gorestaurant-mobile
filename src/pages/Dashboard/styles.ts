@@ -37,6 +37,14 @@ export const CategoryContainer = styled.View`
   margin-top: 40px;
 `;
 
+export const ErrorMessage = styled.Text`
+  flex: 1;
+  color: #6c6c80;
+  font-size: 16px;
+  font-family: 'Poppins-Regular';
+  padding: 0 20px;
+`;
+
 export const CategorySlider = styled.ScrollView`
   margin-top: 16px;
 `;
