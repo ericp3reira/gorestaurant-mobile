@@ -32,6 +32,15 @@ export const HeaderTitle = styled.Text`
   line-height: 24px;
 `;
 
+export const ErrorMessage = styled.Text`
+  flex: 1;
+  color: #ccc;
+  font-size: 16px;
+  font-family: 'Poppins-Regular';
+  padding: 20px;
+  text-align: center;
+`;
+
 export const FoodsContainer = styled.View`
   flex: 1;
   margin-top: -60px;

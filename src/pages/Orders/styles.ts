@@ -6,7 +6,7 @@ interface Product {
   name: string;
   description: string;
   price: number;
-  formattedValue: number;
+  formattedPrice: string;
   thumbnail_url: string;
 }
 
@@ -30,6 +30,15 @@ export const HeaderTitle = styled.Text`
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+`;
+
+export const ErrorMessage = styled.Text`
+  flex: 1;
+  color: #ccc;
+  font-size: 16px;
+  font-family: 'Poppins-Regular';
+  padding: 0 20px;
+  text-align: center;
 `;
 
 export const FoodsContainer = styled.View`
